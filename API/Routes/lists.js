@@ -38,6 +38,7 @@ router.delete("/:id",verify,async (req,res) =>{
         }
     });
 
+    //GET
     
 router.get("/",verify, async (req,res)=>{
     const typeQuery = req.query.type;
